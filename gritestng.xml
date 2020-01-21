@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<test name="safari">
+  <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="nl.weeronline.test.HomePageTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test name="chrome">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="nl.weeronline.test.HomePageTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
+
