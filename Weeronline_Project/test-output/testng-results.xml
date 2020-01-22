@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="250434" started-at="2020-01-22T01:35:28 AST" finished-at="2020-01-22T01:39:39 AST">
+    <groups>
+    </groups>
+    <test name="Firefox" duration-ms="91240" started-at="2020-01-22T01:35:28 AST" finished-at="2020-01-22T01:36:59 AST">
+      <class name="nl.weer.test.HomePageTestCases">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:nl.weer.test.HomePageTestCases@6737fd8f]" name="launchBrowser" is-config="true" duration-ms="16773" started-at="2020-01-22T01:35:28 AST" finished-at="2020-01-22T01:35:45 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verify_URL_for_Weerbericht_Nederland_Page()[pri:0, instance:nl.weer.test.HomePageTestCases@6737fd8f]" name="verify_URL_for_Weerbericht_Nederland_Page" duration-ms="20107" started-at="2020-01-22T01:35:45 AST" finished-at="2020-01-22T01:36:05 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_URL_for_Weerbericht_Nederland_Page -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:nl.weer.test.HomePageTestCases@6737fd8f]" name="launchBrowser" is-config="true" duration-ms="3927" started-at="2020-01-22T01:36:05 AST" finished-at="2020-01-22T01:36:09 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verify_Searched_City_Page_redirected()[pri:1, instance:nl.weer.test.HomePageTestCases@6737fd8f]" name="verify_Searched_City_Page_redirected" duration-ms="17425" started-at="2020-01-22T01:36:09 AST" finished-at="2020-01-22T01:36:26 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Searched_City_Page_redirected -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:nl.weer.test.HomePageTestCases@6737fd8f]" name="launchBrowser" is-config="true" duration-ms="3653" started-at="2020-01-22T01:36:26 AST" finished-at="2020-01-22T01:36:30 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verify_User_Sets_Homepage_City()[pri:2, instance:nl.weer.test.HomePageTestCases@6737fd8f]" name="verify_User_Sets_Homepage_City" duration-ms="27482" started-at="2020-01-22T01:36:30 AST" finished-at="2020-01-22T01:36:58 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_User_Sets_Homepage_City -->
+        <test-method status="PASS" signature="closingBrowser()[pri:0, instance:nl.weer.test.HomePageTestCases@6737fd8f]" name="closingBrowser" is-config="true" duration-ms="1799" started-at="2020-01-22T01:36:58 AST" finished-at="2020-01-22T01:36:59 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- nl.weer.test.HomePageTestCases -->
+    </test> <!-- Firefox -->
+    <test name="safari" duration-ms="79538" started-at="2020-01-22T01:37:00 AST" finished-at="2020-01-22T01:38:19 AST">
+      <class name="nl.weer.test.HomePageTestCases">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:nl.weer.test.HomePageTestCases@396f6598]" name="launchBrowser" is-config="true" duration-ms="7529" started-at="2020-01-22T01:37:00 AST" finished-at="2020-01-22T01:37:07 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verify_URL_for_Weerbericht_Nederland_Page()[pri:0, instance:nl.weer.test.HomePageTestCases@396f6598]" name="verify_URL_for_Weerbericht_Nederland_Page" duration-ms="22849" started-at="2020-01-22T01:37:07 AST" finished-at="2020-01-22T01:37:30 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_URL_for_Weerbericht_Nederland_Page -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:nl.weer.test.HomePageTestCases@396f6598]" name="launchBrowser" is-config="true" duration-ms="3289" started-at="2020-01-22T01:37:30 AST" finished-at="2020-01-22T01:37:33 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verify_Searched_City_Page_redirected()[pri:1, instance:nl.weer.test.HomePageTestCases@396f6598]" name="verify_Searched_City_Page_redirected" duration-ms="16564" started-at="2020-01-22T01:37:33 AST" finished-at="2020-01-22T01:37:50 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Searched_City_Page_redirected -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:nl.weer.test.HomePageTestCases@396f6598]" name="launchBrowser" is-config="true" duration-ms="3319" started-at="2020-01-22T01:37:50 AST" finished-at="2020-01-22T01:37:53 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verify_User_Sets_Homepage_City()[pri:2, instance:nl.weer.test.HomePageTestCases@396f6598]" name="verify_User_Sets_Homepage_City" duration-ms="25824" started-at="2020-01-22T01:37:53 AST" finished-at="2020-01-22T01:38:19 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_User_Sets_Homepage_City -->
+        <test-method status="PASS" signature="closingBrowser()[pri:0, instance:nl.weer.test.HomePageTestCases@396f6598]" name="closingBrowser" is-config="true" duration-ms="154" started-at="2020-01-22T01:38:19 AST" finished-at="2020-01-22T01:38:19 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- nl.weer.test.HomePageTestCases -->
+    </test> <!-- safari -->
+    <test name="chrome" duration-ms="79417" started-at="2020-01-22T01:38:19 AST" finished-at="2020-01-22T01:39:39 AST">
+      <class name="nl.weer.test.HomePageTestCases">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:nl.weer.test.HomePageTestCases@53f65459]" name="launchBrowser" is-config="true" duration-ms="7187" started-at="2020-01-22T01:38:19 AST" finished-at="2020-01-22T01:38:26 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verify_URL_for_Weerbericht_Nederland_Page()[pri:0, instance:nl.weer.test.HomePageTestCases@53f65459]" name="verify_URL_for_Weerbericht_Nederland_Page" duration-ms="19280" started-at="2020-01-22T01:38:26 AST" finished-at="2020-01-22T01:38:46 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_URL_for_Weerbericht_Nederland_Page -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:nl.weer.test.HomePageTestCases@53f65459]" name="launchBrowser" is-config="true" duration-ms="4475" started-at="2020-01-22T01:38:46 AST" finished-at="2020-01-22T01:38:50 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verify_Searched_City_Page_redirected()[pri:1, instance:nl.weer.test.HomePageTestCases@53f65459]" name="verify_Searched_City_Page_redirected" duration-ms="17159" started-at="2020-01-22T01:38:50 AST" finished-at="2020-01-22T01:39:07 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Searched_City_Page_redirected -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:nl.weer.test.HomePageTestCases@53f65459]" name="launchBrowser" is-config="true" duration-ms="4142" started-at="2020-01-22T01:39:07 AST" finished-at="2020-01-22T01:39:11 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verify_User_Sets_Homepage_City()[pri:2, instance:nl.weer.test.HomePageTestCases@53f65459]" name="verify_User_Sets_Homepage_City" duration-ms="26881" started-at="2020-01-22T01:39:11 AST" finished-at="2020-01-22T01:39:38 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_User_Sets_Homepage_City -->
+        <test-method status="PASS" signature="closingBrowser()[pri:0, instance:nl.weer.test.HomePageTestCases@53f65459]" name="closingBrowser" is-config="true" duration-ms="289" started-at="2020-01-22T01:39:38 AST" finished-at="2020-01-22T01:39:39 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- nl.weer.test.HomePageTestCases -->
+    </test> <!-- chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
